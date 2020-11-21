@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run knockknock.py
+web: sh setup.sh && streamlit run "knockknock.py"
