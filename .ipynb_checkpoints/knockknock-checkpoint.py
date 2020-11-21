@@ -97,7 +97,7 @@ if col1.checkbox("Someone is knocking on the door..."):
                                     unsafe_allow_html=True,
                                 )
                                 # st.write( "<p style='text-align: left;'>(This is me. Cutie)</p>",    unsafe_allow_html=True)  
-                                if col10.checkbox("Niceee"):
+                                if col10.checkbox("Niceee. Good boy."):
                                     col10.write(
                                         f"""<img src="https://i.pinimg.com/736x/3b/20/33/3b2033cd7657842acb28440b90ade3ee.jpg" style="float:left" width="360" height="250" >""",
                                         unsafe_allow_html=True,
