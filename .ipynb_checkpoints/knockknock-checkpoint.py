@@ -51,9 +51,9 @@ if col1.checkbox("Sounds like someone is knocking on the door..."):
                 f"""<img src="https://media.tenor.com/images/c91f491657656ef79b69080c06768306/tenor.gif" style="float:left">""",
                 unsafe_allow_html=True,
             )
-            st.write( "<p style='text-align: left;'>(This is me. Cutie)</p>",    unsafe_allow_html=True)
+            col3.write( "<p style='text-align: left;'>(This is me. Cutie)</p>",    unsafe_allow_html=True)
 
-            if col4.checkbox("...."):
+            if col4.checkbox("WHAT YOU WANT??"):
                 # """### gif from local file"""
                 file_ = open("angry.gif", "rb")
                 contents = file_.read()
@@ -79,7 +79,7 @@ if col1.checkbox("Sounds like someone is knocking on the door..."):
                         )
 
                         col7, col8 = st.beta_columns(2)
-                        if col7.checkbox("For everything..."):
+                        if col7.checkbox("For all the trouble..."):
                             col7.write(
                                 f"""<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7ir_TizdZ7vXZS8V98g2Lll6YREYYqdYt7A&usqp=CAU" style="float:left">""",
                                 unsafe_allow_html=True,
@@ -91,7 +91,7 @@ if col1.checkbox("Sounds like someone is knocking on the door..."):
                                     unsafe_allow_html=True,
                                 )
                                 col9, col10 = st.beta_columns(2)
-                                if col9.checkbox("(I shall leave Kakak alone...)"):
+                                if col9.checkbox("(I shall leave Kakak alone...) 拜拜"):
                                     col9.write(
                                         f"""<img src="https://media2.giphy.com/media/COYGe9rZvfiaQ/giphy.gif" style="float:left">""",
                                         unsafe_allow_html=True,
