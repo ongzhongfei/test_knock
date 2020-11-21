@@ -78,31 +78,30 @@ if col1.checkbox("Someone is knocking on the door..."):
                         unsafe_allow_html=True,
                     )
 
-                col7, col8 = st.beta_columns(2)
-                if col7.checkbox("For everything..."):
-                    col7.write(
-                        f"""<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7ir_TizdZ7vXZS8V98g2Lll6YREYYqdYt7A&usqp=CAU" style="float:left">""",
-                        unsafe_allow_html=True,
-                    )
-                    # st.write( "<p style='text-align: left;'>(This is me. Cutie)</p>",    unsafe_allow_html=True)  
-                    if col8.checkbox("..."):
-                        col8.write(
-                            f"""<img src="https://qph.fs.quoracdn.net/main-qimg-6ed14162acb25116839c2bc2d601e4e3" style="float:left" width="360" height="250" >""",
+                    col7, col8 = st.beta_columns(2)
+                    if col7.checkbox("For everything..."):
+                        col7.write(
+                            f"""<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7ir_TizdZ7vXZS8V98g2Lll6YREYYqdYt7A&usqp=CAU" style="float:left">""",
                             unsafe_allow_html=True,
                         )
-                        col9, col10 = st.beta_columns(2)
-                        if col9.checkbox("(I shall leave Kakak alone...)"):
-                            col9.write(
-                                f"""<img src="https://media2.giphy.com/media/COYGe9rZvfiaQ/giphy.gif" style="float:left">""",
+                        # st.write( "<p style='text-align: left;'>(This is me. Cutie)</p>",    unsafe_allow_html=True)  
+                        if col8.checkbox("..."):
+                            col8.write(
+                                f"""<img src="https://qph.fs.quoracdn.net/main-qimg-6ed14162acb25116839c2bc2d601e4e3" style="float:left" width="360" height="250" >""",
                                 unsafe_allow_html=True,
                             )
-                            # st.write( "<p style='text-align: left;'>(This is me. Cutie)</p>",    unsafe_allow_html=True)  
-                            if col10.checkbox("Niceee"):
-                                col10.write(
-                                    f"""<img src="https://i.pinimg.com/736x/3b/20/33/3b2033cd7657842acb28440b90ade3ee.jpg" style="float:left" width="360" height="250" >""",
+                            col9, col10 = st.beta_columns(2)
+                            if col9.checkbox("(I shall leave Kakak alone...)"):
+                                col9.write(
+                                    f"""<img src="https://media2.giphy.com/media/COYGe9rZvfiaQ/giphy.gif" style="float:left">""",
                                     unsafe_allow_html=True,
                                 )
+                                # st.write( "<p style='text-align: left;'>(This is me. Cutie)</p>",    unsafe_allow_html=True)  
+                                if col10.checkbox("Niceee"):
+                                    col10.write(
+                                        f"""<img src="https://i.pinimg.com/736x/3b/20/33/3b2033cd7657842acb28440b90ade3ee.jpg" style="float:left" width="360" height="250" >""",
+                                        unsafe_allow_html=True,
+                                    )
 
 
 
-                
