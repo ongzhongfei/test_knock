@@ -53,7 +53,7 @@ if col1.checkbox("Sounds like someone is knocking on the door..."):
             )
             col3.write( "<p style='text-align: left;'>(This is me. Cutie)</p>",    unsafe_allow_html=True)
 
-            if col4.checkbox("WHAT YOU WANT??"):
+            if col4.checkbox("(Kakak annoyed) WHAT YOU WANT??"):
                 # """### gif from local file"""
                 file_ = open("angry.gif", "rb")
                 contents = file_.read()
@@ -64,6 +64,7 @@ if col1.checkbox("Sounds like someone is knocking on the door..."):
                     f'<img src="data:image/gif;base64,{data_url}" style="float:right">',
                     unsafe_allow_html=True,
                 )
+                col4.write( "<p style='text-align: right;'>(Kakak's angry face)</p>",    unsafe_allow_html=True)
 
                 col5, col6 = st.beta_columns(2)
                 if col5.checkbox("Sorriee..."):
